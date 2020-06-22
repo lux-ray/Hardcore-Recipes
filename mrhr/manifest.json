@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+            "description": "My DiscordID:Euxcbsks#5316",
+            "name": "More Recipes(hard) R",
+            "uuid": "60c14c2f-bee2-49bd-a56e-f890a412b94d",
+            "version": [0,0,1],
+            "min_engine_version": [1, 14, 0]
+    },
+    "modules": [
+        {
+            "description": "My DiscordID:Euxcbsks#5316",
+            "type": "resources",
+            "uuid": "c4a820c5-601d-4425-a24f-b0457be6e5c8",
+            "version": [0,0,1]
+        }
+    ]
+}
