@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mrh:item_converter"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "mrh:admin_tool"
+      }
+    },
+    "result": {
+      "item": "minecraft:spawn_egg",
+      "data": 260
+    }
+  }
+}
