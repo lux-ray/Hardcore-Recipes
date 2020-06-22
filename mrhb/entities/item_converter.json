@@ -1,0 +1,88 @@
+{
+	"minecraft:entity": {
+		"format_version": "1.11.0",
+		"description": {
+			"identifier": "mrh:item_converter",
+      "runtime_identifier": "minecraft:ender_crystal",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+		},
+    "component_groups": {
+      "remove": {
+				"minecraft:despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "item_converter"
+        ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathes_air": true,
+        "breathes_water": true,
+        "breathes_lava": true
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:knockback_resistance": {
+				"value": 1,
+				"max": 1
+			},
+      "minecraft:interact": [
+        {
+          "on_interact": {
+            "filters": {
+              "all_of": [
+                { "test": "is_family","subject": "other","value": "player" },
+                { "test": "has_equipment","domain": "hand","subject": "other","value": "mral:admin_tool" }
+              ]
+            },
+            "event": "remove"
+          },
+          "swing": true,
+          "hurt_item": 1,
+          "play_sounds": "block.grindstone.use",
+          "interact_text": "action.interact.remove",
+					"spawn_items": {
+						"table": "loot_tables/machine/item_converter.json"
+					}
+        }
+      ],
+      "minecraft:physics": {},
+      "minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:economy_trade_table": {
+			  "display_name": "entity.mrh:item_converter.name",
+			  "new_screen": true,
+			  "persist_trades": true,
+			  "table": "trading/item_converter.json"
+			},
+			"minecraft:trade_with_player": {},
+			"minecraft:damage_sensor": [
+				{
+					"deals_damage": false,
+					"on_damage": {
+						"target": "self"
+					}
+				}
+			]
+    },
+    "events": {
+      "remove": {
+        "add": {
+          "component_groups": [
+            "remove"
+          ]
+        }
+      }
+    }
+	}
+}
