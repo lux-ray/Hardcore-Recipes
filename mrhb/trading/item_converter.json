@@ -1,0 +1,177 @@
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:15"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:32"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:33"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:34"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:35"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:36"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:37"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:38"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:41"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:42"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:43"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:45"
+						}
+					]
+				},
+				{
+					"wants": [
+						{
+							"item": "mrh:admin_tool",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg:48"
+						}
+					]
+				}
+			]
+		}
+	]
+}
