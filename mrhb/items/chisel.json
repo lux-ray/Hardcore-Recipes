@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "mrh:admin_tool"
+      "identifier": "mrh:chisel"
     },
     "components": {
       "minecraft:hand_equipped": true,
